@@ -9,7 +9,7 @@ AOSP Launcher3 is a tightly coupled monolithic app of a core Android system, and
 Because Lawnchair is a vendor implementation living inside a forked AOSP tree, the repository contains two distinct layers:
 
 1. **Launcher3** (such as `src/`, `quickstep/`): A mix of legacy Java and Kotlin, following the [AOSP Java code style][aosp-java-style], [Google Kotlin style guide and others][greater-google-code-style].
-2. **Lawnchair** (`lawnchair/`): Modern Kotlin using Jetpack Compose, generally following following the Modern Android Development (MAD) practices
+2. **Lawnchair** (`lawnchair/`): Modern Kotlin using Jetpack Compose, generally following the Modern Android Development (MAD) practices
 
 See [AOSP design patterns](aosp-design-patterns.md), [Lawnchair design patterns](lawnchair-design-patterns.md), and the [Glossary](glossary.md) for deeper dives into the codebase.
 
